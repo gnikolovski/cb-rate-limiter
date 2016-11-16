@@ -17,6 +17,8 @@ should return http code 429 (too many requests) with appropriate headers.
 This is how you could use this package with Slimframework as a middleware:
 
 ```php
+$app = new \Slim\App;
+
 $app->add(function ($request, $response, $next) {
   $limiter = new CbRateLimiter($hostname, $bucket, $password);
   $exceeded = $limiter->isExceeded($ip_address, $max_requests, $in_minutes);
