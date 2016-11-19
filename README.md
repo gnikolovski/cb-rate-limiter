@@ -8,6 +8,14 @@ I decided to go with Couchbase, because the rest of my application was using
 this database to store data. Couchbase is a super fast NoSQL database, so it is 
 perfect for this kind of tasks.
 
+## How to install?
+
+The easiest and recommended method to install CB Rate Limiter is via composer:
+
+```
+composer require gnikolovski/cb-rate-limiter
+```
+
 ## How to use it?
 
 Best way to use this package is as a middleware on your routes. Put it first -
