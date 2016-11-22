@@ -29,6 +29,7 @@ $app = new \Slim\App;
 
 $app->add(function ($request, $response, $next) {
   $limiter = new CbRateLimiter($hostname, $bucket, $password);
+  $limiter->whitelist($your_ip_address);
   $exceeded = $limiter->isExceeded($ip_address, $max_requests, $in_minutes);
 
   if (!$exceeded) {
