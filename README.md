@@ -1,11 +1,11 @@
 # CB Rate Limiter
 
-Couchbase API Rate Limiter is a super simple PHP package for limiting access to 
+Couchbase API Rate Limiter is a super simple PHP package for limiting access to
 your public API. It was originally created for one of my projects, and I'm using
 it with Slimframework, but it could be used in any of your projects.
 
-I decided to go with Couchbase, because the rest of my application was using 
-this database to store data. Couchbase is a super fast NoSQL database, so it is 
+I decided to go with Couchbase, because the rest of my application was using
+this database to store data. Couchbase is a super fast NoSQL database, so it is
 perfect for this kind of tasks.
 
 ## How to install?
@@ -91,8 +91,6 @@ To use Couchbase in PHP you must install PHP SDK. To find out more visit: (http:
 
 ### AUTHOR
 
-Goran Nikolovski
-
-Website: (http://www.gorannikolovski.com)
-
-Email: nikolovski84@gmail.com
+Goran Nikolovski  
+Website: (http://www.gorannikolovski.com)  
+Email: nikolovski84@gmail.com  
