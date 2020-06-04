@@ -1,18 +1,21 @@
 {
     "name": "gnikolovski/cb-rate-limiter",
-    "type": "library",
     "description": "API rate limiter which uses Couchbase for storing data",
-    "keywords": ["api","rate","limiter","throttler","couchbase"],
+    "type": "library",
     "homepage": "https://github.com/gnikolovski/cb-rate-limiter",
-    "license": "MIT",
     "authors": [
         {
             "name": "Goran Nikolovski",
-            "email": "nikolovski84@gmail.com",
-            "homepage": "http://gorannikolovski.com",
+            "email": "goran@gorannikolovski.com",
+            "homepage": "https://gorannikolovski.com",
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/gnikolovski/cb-rate-limiter/issues",
+        "email": "goran@gorannikolovski.com"
+    },
+    "license": "MIT",
     "require": {
         "php": ">=5.3.0"
     },
