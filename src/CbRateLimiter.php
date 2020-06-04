@@ -7,8 +7,8 @@ namespace Gnikolovski;
  *
  * Use this class to limit the number of requests comming from IP addresses.
  *
- * @author Goran Nikolovski <nikolovski84@gmail.com>
- * @website www.gorannikolovski.com
+ * @author Goran Nikolovski <goran@gorannikolovski.com>
+ * @website https://gorannikolovski.com
  */
 class CbRateLimiter
 {
