@@ -62,8 +62,8 @@ $bucket - name of the bucket where you will store data
 
 $password - database password
 
-After you create $limiter object you have to call isExceeded() method and provide
-the following data:
+After you create $limiter object you have to call isExceeded() method and
+provide the following data:
 
 $ip_address - IP address of user trying to access API route
 
@@ -78,8 +78,8 @@ $_SERVER['REMOTE_ADDR']
 ```
 or by using some package, like akrabat/rka-ip-address-middleware.
 
-Variables $max_requests and $in_minutes should be integers. If you want to accept
-100 requests from one IP address in 60 minutes you would write:
+Variables $max_requests and $in_minutes should be integers. If you want to
+accept 100 requests from one IP address in 60 minutes you would write:
 
 ```php
 $limiter->isExceeded($_SERVER['REMOTE_ADDR'], 100, 60);
@@ -87,10 +87,9 @@ $limiter->isExceeded($_SERVER['REMOTE_ADDR'], 100, 60);
 
 ## Requirements
 
-To use Couchbase in PHP you must install PHP SDK. To find out more visit: (http://developer.couchbase.com/documentation/server/4.0/sdks/php-2.0/download-links.html)
+To use Couchbase in PHP you must install PHP SDK. To find out more visit:
+(http://developer.couchbase.com/documentation/server/4.0/sdks/php-2.0/download-links.html)
 
 ### AUTHOR
 
-Goran Nikolovski  
-Website: (http://www.gorannikolovski.com)  
-Email: nikolovski84@gmail.com  
+Goran Nikolovski - https://gorannikolovski.com
